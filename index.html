@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login - c2c Videochat</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+<h1>Willkommen zum c2c Videochat</h1>
+<form id="loginForm">
+<label for="nickname">Nickname:</label>
+<input type="text" id="nickname" name="nickname" required placeholder="Gib deinen Nickname ein">
+
+<label for="password">Passwort:</label>
+<input type="password" id="password" name="password" required placeholder="Gib dein Passwort ein">
+
+<button type="submit">Einloggen</button>
+</form>
+
+<p>Noch kein Konto? <a href="register.html">Registrieren</a></p>
+<p id="errorMessage" class="error-message"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

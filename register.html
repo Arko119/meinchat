@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Registrierung - c2c Videochat</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+<h1>Registriere dich für den c2c Videochat</h1>
+<form id="registerForm">
+<label for="nickname">Nickname:</label>
+<input type="text" id="nickname" name="nickname" required placeholder="Wähle deinen Nickname">
+
+<label for="password">Passwort:</label>
+<input type="password" id="password" name="password" required placeholder="Mind. 6 Zeichen">
+
+<label for="age">Alter:</label>
+<input type="number" id="age" name="age" required placeholder="Dein Alter">
+
+<button type="submit">Registrieren</button>
+</form>
+
+<p>Bereits registriert? <a href="index.html">Einloggen</a></p>
+<p id="errorMessage" class="error-message"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
