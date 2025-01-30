@@ -1,4 +1,4 @@
-const socket = io("https://colossal-past-goose.glitch.me"); // WebRTC-Server-URL einfügen
+const socket = io("https://arko119.github.io/meinchat/"); // WebRTC-Server-URL einfügen
 let localStream;
 let peerConnection;
 const config = { iceServers: [{ urls: "stun:stun.l.google.com:19302" }] };
